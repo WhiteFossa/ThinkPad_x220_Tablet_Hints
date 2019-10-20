@@ -1,0 +1,8 @@
+#!/bin/sh
+# Setting keys mapping for ThinkPad x220 Tablet keyboard
+
+# Back -> Page Up
+setkeycodes ea 104
+
+# Forward -> Page Down
+setkeycodes e9 109

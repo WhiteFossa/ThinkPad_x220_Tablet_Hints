@@ -1,0 +1,9 @@
+[Unit]
+Description=Setting keys mapping
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/set-keys-mapping
+
+[Install]
+WantedBy=multi-user.target
